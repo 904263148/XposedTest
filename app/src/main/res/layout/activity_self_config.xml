@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelfConfigActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_bg_blue_line_conner_20"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#3399FF"
+        />
+
+    <EditText
+        android:id="@+id/et_merchname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入商户名称"
+        />
+
+    <EditText
+        android:id="@+id/et_devicename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入设备名称"
+        />
+
+    <EditText
+        android:id="@+id/et_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入设备标识"
+        />
+
+    <EditText
+        android:id="@+id/et_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入Token"
+        />
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入登录地址"
+        />
+
+    <EditText
+        android:id="@+id/et_socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入连接地址"
+        />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入绑定时间"
+        />
+
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_login"
+        android:text="设置"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

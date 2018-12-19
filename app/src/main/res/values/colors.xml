@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="green">#008000</color>
+    <color name="red">#DC143C</color>
+    <color name="orange">#FFA500</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#00000000</color>
+    <color name="evaluate_tag_pink">#FFE5F2</color>
+    <color name="text_gray">#999999</color>
+    <color name="home_title_color">#333333</color>
+    <color name="bg_color">#f7f8ff</color>
+    <color name="bg_pressed_color">#F4F9FF</color>
+    <color name="color_bg_gray">#f0f0f0</color>
+    <color name="title_color">#333333</color>
+    <color name="bg_main_color">#F0F0F0</color>
+    <color name="main_color">#3399FF</color>
+</resources>

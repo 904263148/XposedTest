@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_config"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_bg_blue_line_conner_20"
+            android:gravity="center"
+            android:text="配置"
+            android:textColor="#3399FF" />
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_bg_blue_line_conner_20"
+            android:gravity="center"
+            android:text="停止"
+            android:textColor="#3399FF"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/mOpenWechat"
+                android:text="打开微信"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_login"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/mWechatStateIv"
+                android:background="@drawable/red_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/mOpenAlipay"
+                android:text="打开支付宝"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_login"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/mAlipayStateIv"
+                android:background="@drawable/red_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/bottom_qq"
+                android:text="打开QQ"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_login"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:background="@drawable/red_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/bottom_qq_hk"
+                android:text="打开港版支付宝"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_login"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:background="@drawable/red_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="打开QQ"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_login"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:background="@drawable/red_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/console"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        app:tabBackground="@android:color/white"
+        app:tabSelectedTextColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

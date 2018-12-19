@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigDetailActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_bg_blue_line_conner_20"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#3399FF"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_bg_blue_line_conner_20"
+            android:gravity="center"
+            android:text="测试"
+            android:textColor="#3399FF" />
+
+        <TextView
+            android:id="@+id/tv_kill"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_bg_blue_line_conner_20"
+            android:gravity="center"
+            android:text="解绑"
+            android:textColor="#3399FF"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
